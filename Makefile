@@ -19,5 +19,5 @@ clean:
 	rm -f $(PROGRAM) $(OBJS) $(INTERM)
 
 test: $(PROGRAM)
-	$(PROGRAM) example.txt
+	$(PROGRAM) matlab.txt
 
